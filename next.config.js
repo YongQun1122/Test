@@ -18,7 +18,7 @@ module.exports = withPWA(
       ignoreBuildErrors: false
     },
     images: {
-      domains: ["images.mycravy.com", "d1wshhln2jshdb.cloudfront.net"],
+      domains: [""],
       disableStaticImages: true
     },
     lessLoaderOptions: {
