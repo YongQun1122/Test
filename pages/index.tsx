@@ -97,6 +97,7 @@ const HomePage: React.FC<any> = () => {
       });
       setTodos(updatedTodos);
     }
+    
     if (dueDate != "") {
       const updatedTodos = [...todos].map((todo) => {
         if ((todo as any).id === id) {
